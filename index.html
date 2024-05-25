@@ -26,8 +26,8 @@
 
             <nav>
                 <ul>
-                    <li><a href="#">intro</a></li>
-                    <li><a href="#">top 3</a></li>                
+                    <li><a href="#intro">intro</a></li>
+                    <li><a href="#top3-content">top 3</a></li>                
                     <li><a href="#">gallery</a></li>
                     <li><a href="#">work</a></li>
                     <li><a href="#">contact</a></li>
@@ -38,7 +38,7 @@
 
     <div class="menu-spacing"></div>
     
-    <section class="intro main-bg section">
+    <section id="intro" class="intro main-bg section">
         <div class="main-content intro-content">
             <div class="intro-text-content">
                 <h2>January brings us FireFox 85</h2>
@@ -50,8 +50,16 @@
         </div>
     </section>
 
-    <section class="white-bg section">
+    <section id="top3-content" class="white-bg section">
+        <div class="main-content top3-content">
+            <h2>3 top jobs</h2>
+                <p>The release of Apple Silicon-based Macs at the end of last year generated a flurry of news covarage and some surprises at the machine's perfomance. This post details some background information on th experience of porting Firefor to run natively on these CPUs.</p>
 
+                <p>We'll start with some background on the Mac transition and give an overview of Firefor internals that needed to know about the new architecture, before moving on to the concept of Universal Binaries.
+                </p>
+
+                <p>We'll then explai how DRM/EME works on the new plataform, talk about our experience with macOS Big Sut, and discuss various updater problems we had to deal with. We'll conclude with the release and overview of varios other improvements that are in the pipeline.</p>
+        </div>
     </section>
     
 </body>
