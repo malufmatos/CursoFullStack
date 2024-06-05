@@ -17,7 +17,7 @@
     <title>Landing Page</title>
 </head>
 
-<body class="main-bg">
+<body>
     <aside class="menu white-bg">
         <div class="main-content menu-content">
             <h1>
@@ -189,39 +189,36 @@
                 <img src="./assets/img/javascript.svg" alt="Grupo de pessoas que seguram a logo de HTML, CSS e JavaScript">
             </div>
             <div class="contact-form">
-                <fieldset>
+                <fieldset class="form-grid">
                     <legend>Contact me</legend>
                     
                     <div class="form-group">
                         <label for="first-name">First name</label>
-                        <input type="text" name="first-name" id="first-name">
+                        <input type="text" name="first-name" id="first-name" placeholder="Your first name">
                     </div>
                     <div class="form-group">
                         <label for="last">Last name</label>
-                        <input type="text" name="last" id="last">
-                    </div>
-                    <div class="form-group">
-                        <label for="first-name">First name</label>
-                        <input type="text" name="first-name" id="first-name">
+                        <input type="text" name="last" id="last" placeholder="Your last name">
                     </div>
                     <div class="form-group">
                         <label for="email">E-mail</label>
-                        <input type="email" name="email" id="email">
+                        <input type="email" name="email" id="email" placeholder="Your best e-mail">
                     </div>
-                    <div class="form-group">
+                    <div class="form-group full-width">
                         <label for="message">Message</label>
-                        <textarea name="message" id="message" cols="30" rows="10"></textarea>
+                        <textarea name="message" id="message" cols="30" rows="10" placeholder="Your message"></textarea>
                     </div>
-                    <div class="form-group">
+                    <div class="form-group full-width">
                         <button type="submit">Send message</button>
                     </div>
-
-
-
                 </fieldset>
             </div>
         </div>
     </section>
+
+    <footer id="footer" class="footer white-bg">
+        <p><a rel="nofollow" target="_blank" href="https://malufmatos.github.io/SocialLinks">Made with <span class="heart">♥ </span>by Maria Luiza Matos </a></p>
+    </footer>
 
 </body>
 </html>
