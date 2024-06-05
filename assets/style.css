@@ -1,6 +1,5 @@
 .intro-content{
     position: relative;
-    top: -8rem;
     display: grid;
     grid-template-columns: 1fr 1.5fr;
     gap: var(--gap);
@@ -81,4 +80,8 @@
 
 .gallery-img img:hover{
     transform: translate(-3%, 3%) scale(1.2) rotate(5deg);
+}
+
+.contact-form{
+    grid-column: span 2;
 }
