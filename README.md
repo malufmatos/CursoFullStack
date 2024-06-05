@@ -16,7 +16,7 @@ This project was developed with the following technologies:
 - HTML and CSS
 - Git and Github
 
-## 💻 Project
+##  Project
 
 The landing page was a website designed to train and improve my knowledge of HTML and CSS.
 
